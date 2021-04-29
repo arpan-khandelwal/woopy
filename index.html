@@ -182,7 +182,7 @@
                     console.log("BOOM hit");
                     endGame();
                 }
-                if (item.y > 750) {
+                if (item.y >= 750) {
                     item.y = -300;
                     item.style.left = Math.floor(Math.random() * 350) + "px";
                 }
